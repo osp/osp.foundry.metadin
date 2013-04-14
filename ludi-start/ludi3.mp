@@ -1,5 +1,5 @@
 beginfig(3)
-pickup penrazor scaled 0.5;
+pickup penround scaled 0.5;
 z1=(1,2);
 z2=(2,0);
 z3=(3,2);
