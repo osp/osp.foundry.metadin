@@ -1,0 +1,3 @@
+[submodule "mf"]
+	path = mf
+	url = git@github.com:greyfont/metaflop-font.git

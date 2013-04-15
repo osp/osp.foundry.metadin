@@ -1,0 +1,8 @@
+screeen.css
+.sass-cache
+.bundle
+config/user.rb
+db.yml
+.DS_Store
+*.swp
+vendor
