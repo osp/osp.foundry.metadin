@@ -6,7 +6,7 @@ beginfig(1)
     z99=(0.5u, 3u);
     z98 = (2.5u, 0);
     z97 = (4u, 0.5);
-    draw z34{up}..z43..z31{down}..z22..z23..z14{down}..z3..z2..z11{up};
+    draw z34{up}..z43..z42..z31..z22..z23..z14..z3..z2..z11{up};
     dotlabels.top(70, 71, 72, 73, 74, 75, 76);
     dotlabels.top(60, 61, 62, 63, 64, 65, 66);
     dotlabels.top(50, 51, 52, 53, 54, 55, 56);
