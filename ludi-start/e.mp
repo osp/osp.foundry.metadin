@@ -2,7 +2,7 @@ prologues := 3;     % sortie EPS
 
 beginfig(1)
     input ../metadin/template;
-    pickup pencircle scaled 20pt;
+    input ../metadin/pencil;
     z99=(0.5u, 1u);
     z98=(2.5u, 0);
     draw z30--z35{up}..z20..z99..z98..z15;
