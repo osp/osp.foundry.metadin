@@ -2,11 +2,17 @@ prologues := 3;     % sortie EPS
 
 beginfig(1)
     input ../metadin/template;
-    pickup pencircle scaled 20pt;
-    z99 = (3.5u, 2u);
-    draw z31{up}..z42..z43..z34..z23;
-    draw z23..z22;
-    draw z23..z14..z3..z2..z11{up};
+    pickup pencircle scaled 45pt;
+    z99=(1.5u, 5.5u);
+    z98=(2.5u, 6.5u);
+    z97=(4.5u, 5.5u);
+    z96=(4.5u, 1.5u);
+    z95=(3u, 0.5u);
+    z94=(1.5u, 1.5u);
+    z93=(2.5u, 3.5u);
+    draw z99..z98..z97..z44..z93;
+    draw z93..z34..z96..z95..z94;
+    
     dotlabels.top(70, 71, 72, 73, 74, 75, 76);
     dotlabels.top(60, 61, 62, 63, 64, 65, 66);
     dotlabels.top(50, 51, 52, 53, 54, 55, 56);
