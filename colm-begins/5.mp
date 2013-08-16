@@ -5,14 +5,18 @@ beginfig(1)
     pickup pencircle scaled 45pt;
     z99=(4.5u, 6.5u);
     z98=(1.5u, 6.5u);
-    z97=(1.5u, 3.5u);
-    z96=(4.5u, 3.5u);
-    z95=(4.5u, 2.5u);
-    z94=(1.5u, 1.5u);
+    z97=(1.5u, 3u);
+    z96=(4.5u, 2.5u);
+    z95=(4.5u, 2u);
+    z94=(3.5u, 0.5u);
+    z93=(1.5u, 1.5u);
     
     draw z99..z98;
     draw z98..z97;
-    draw z97..z43..z95..z12..z94;
+    draw z97..z43..z96;
+    draw z96..z95;
+    draw z95..z94..z93;
+    
     dotlabels.top(70, 71, 72, 73, 74, 75, 76);
     dotlabels.top(60, 61, 62, 63, 64, 65, 66);
     dotlabels.top(50, 51, 52, 53, 54, 55, 56);

@@ -3,7 +3,7 @@ prologues := 3;     % sortie EPS
 beginfig(1)
     input ../metadin/template;
     pickup pencircle scaled 45pt;
-    z99=(3.5u, 7u);
+    z99=(3.5u, 6.5u);
     z98=(1.5u, 1.5u);
     z97=(4.5u, 1.5u);
     z96=(4u, 3.5u);
