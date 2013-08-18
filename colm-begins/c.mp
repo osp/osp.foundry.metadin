@@ -4,6 +4,17 @@ beginfig(1)
     input ../metadin/template;
     pickup pencircle scaled 45pt;
     
+    z99=(3.5u, 3.5u);
+    z98=(2.5u, 4.5u);
+    z97=(1.5u, 3.5u);
+    z96=(1.5u, 1.5u);
+    z95=(2.5u, 0.5u);
+    z94=(3.5u, 1.5u);
+    
+    
+    draw z99..z98..z97;
+    draw z97..z96;
+    draw z96..z95..z94;
     
     
     dotlabels.top(70, 71, 72, 73, 74, 75, 76);
