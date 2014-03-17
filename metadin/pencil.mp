@@ -1,1 +1,1 @@
-pickup pensquare scaled 10pt;
+pickup penrazor xscaled 20pt yscaled 10pt rotated 45;
