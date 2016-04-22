@@ -1,8 +1,8 @@
 % common variables, we can define all we need
-w = 1000pt;			
-h = 1000pt;			
-xheight = 1/1.5;
-u = 50pt;
+w := 1000pt;			
+h := 1000pt;			
+xheight := 1/1.5;
+u := 50pt;
 
 % preparing a common grid for all glyphs
 z00 = (0,0);      z01 = (1u, 0);    z02 = (2u, 0);    z03 = (3u, 0);    z04 = (4u, 0);    z05 = (5u, 0);    z06 = (6u, 0); 
